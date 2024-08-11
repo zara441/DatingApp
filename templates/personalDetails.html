@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PersonalDetails</title>
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.css">
+    
+    <link rel="stylesheet" href="/static/personslDetails/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap" 
+        rel="stylesheet">
+    <style>
+      
+    </style>    
+   
+    
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!--MAIN BUTTON-->
+            <div class="d-grid gap-2 col-4 mx-auto">
+                <button class="btn btn-primary" type="button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop2">login</button>
+            </div>
+        </div>
+        <!--Personal details modal-->
+        <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content login">
+                    <div class="modal-header">
+                        <h2>BuddyPair</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!--AGE AND DOB-->
+                        <div class="content-1" id="content-1">
+                            <div class="head-1">
+                                <h3>Personal Details</h3>
+                            </div>
+                            <div class="head-1">
+                                <h2>Can we know your age?</h2>
+                            </div>
+                            <div class="modal-input">
+                                <form>
+                                    <div class="mb-3">
+                                        <input type="number" class="form-control" id="exampleInputName1" aria-describedby="emailHelp">
+                                        <label for="exampleInputName1" class="form-label">Age</label>
+                                    </div>
+                                    <div class="mb-3">
+                                      <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                      <label for="exampleInputEmail1" class="form-label">DOB</label>
+                                    </div>
+                                    
+                                    
+                                    <div class="d-grid gap-2 col-12 mx-auto" style="padding-top: 0px;">
+                                        <button class="btn btn-primary" id="next-btn-1" type="button">Next</button>
+                                        
+                                      </div>
+                                  </form>
+                              </div>
+
+                        </div>
+                        <!--AGE AND DOB-->
+
+                        <!--HOBBIES AND INTERESTS-->
+                        <div class="content-1 info-1" id="content-2">
+                            <div class="head-1">
+                                <h3>Personal Details</h3>
+                            </div>
+                            <div class="head-1">
+                                <h2>Can we know your Hobbies?</h2>
+                            </div>
+                            <div class="modal-input">
+                                <form>
+                                    <div class="mb">
+                                        <label for="exampleInputName1" class="form-label">What are your hobbies?</label>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="checkbox" class="btn-check" id="btn-check-1" autocomplete="off">
+                                        <label class="btn btn-primary selection"  for="btn-check-1">Singing</label>
+                                        <input type="checkbox" class="btn-check" id="btn-check-2" autocomplete="off">
+                                        <label class="btn btn-primary selection" for="btn-check-2">Reading</label>
+                                        <input type="checkbox" class="btn-check" id="btn-check-3" autocomplete="off">
+                                        <label class="btn btn-primary selection" for="btn-check-3">Travelling</label>
+                                        <input type="checkbox" class="btn-check" id="btn-check-4" autocomplete="off">
+                                        <label class="btn btn-primary selection" for="btn-check-4">learning</label>
+                                        <input type="checkbox" class="btn-check" id="btn-check-5" autocomplete="off">
+                                        <label class="btn btn-primary selection" for="btn-check-5">cooking</label>
+                                        <input type="checkbox" class="btn-check" id="btn-check-11" autocomplete="off">
+                                        <label class="btn btn-primary selection" for="btn-check-11">Drawing</label>
+                                        <input type="checkbox" class="btn-check" id="btn-check-12" autocomplete="off">
+                                        <label class="btn btn-primary selection" for="btn-check-12">Dancing</label>
+                                    </div>      
+                                    <div class="mb">
+                                        <label for="exampleInputName1" class="form-label">What are your interests?</label>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="checkbox" class="btn-check" id="btn-check-6" autocomplete="off">
+                                        <label class="btn btn-primary selection" for="btn-check-6">Business</label>
+                                        <input type="checkbox" class="btn-check" id="btn-check-7" autocomplete="off">
+                                        <label class="btn btn-primary selection" for="btn-check-7">Space science</label>
+                                        <input type="checkbox" class="btn-check" id="btn-check-8" autocomplete="off">
+                                        <label class="btn btn-primary selection" for="btn-check-8">Travel</label>
+                                        <input type="checkbox" class="btn-check" id="btn-check-9" autocomplete="off">
+                                        <label class="btn btn-primary selection" for="btn-check-9">Music</label>
+                                        <input type="checkbox" class="btn-check" id="btn-check-10" autocomplete="off">
+                                        <label class="btn btn-primary selection" for="btn-check-10">Peace</label>
+                                        <input type="checkbox" class="btn-check" id="btn-check-13" autocomplete="off">
+                                        <label class="btn btn-primary selection" for="btn-check-13">Fashion</label>
+                                        <input type="checkbox" class="btn-check" id="btn-check-14" autocomplete="off">
+                                        <label class="btn btn-primary selection" for="btn-check-14">Food</label>
+
+                                    </div>   
+                                    <div class="d-grid gap-2 col-12 mx-auto" style="padding-top: 0px;">
+                                        <button class="btn btn-primary" id="next-btn-2" type="button">Next</button>
+                                        
+                                      </div>
+                                  </form>
+                       
+                            </div>
+
+                        </div>
+                        <!--HOBBIES AND INTERESTS-->
+
+                        <!--SMOKIN AND DRINKIN HABITS-->
+                        <div class="content-1 info-2" id="content-3">
+                            <div class="head-1">
+                                <h3>Personal Details</h3>
+                            </div>
+                            <div class="head-1">
+                                <h2>Can we know about your Habits?</h2>
+                            </div>
+                            <div class="modal-input">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="exampleInputName1" class="form-label" style="font-weight: 700;">What is your smoking status?</label>
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                                            <label class="form-check-label" for="flexSwitchCheckDefault">Never</label>
+                                        </div>
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                                            <label class="form-check-label" for="flexSwitchCheckDefault">Occassionally</label>
+                                        </div>
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                                            <label class="form-check-label" for="flexSwitchCheckDefault">[Regularly]</label>
+                                        </div>
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                                            <label class="form-check-label" for="flexSwitchCheckDefault">Quitting</label>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="exampleInputEmail1" class="form-label" style="font-weight: 700;">What is your drinking status?</label>
+                                      <div class="form-check form-check">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">Never</label>
+                                      </div>
+                                      <div class="form-check form-check">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">Occassionally</label>
+                                      </div>
+                                      <div class="form-check form-check">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">Regularly</label>
+                                      </div>
+                                      <div class="form-check form-check">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">Quitting</label>
+                                      </div>
+                                      
+                                    </div>
+                                    
+                                    
+                                    <div class="d-grid gap-2 col-12 mx-auto" style="padding-top: 0px;">
+                                        <button class="btn btn-primary" id="next-btn-3" type="button">Next</button>
+                                        
+                                      </div>
+                                  </form>
+                              </div>
+                        </div>
+                        <!--SMOKIN AND DRINKIN HABITS-->
+
+                        <!--QUALIFICATION AND EDUCATION -->
+                        <div class="content-1 info-3" id="content-4">
+                            <div class="head-1">
+                                <h3>Personal Details</h3>
+                            </div>
+                            <div class="head-1">
+                                <h2>Can we know about your qualifications?</h2>
+                            </div>
+                            <div class="modal-input">
+                                <form>
+                                    <div class="mb">
+                                        <label for="exampleInputName1" class="form-label">Tell us about your Education!</label>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="checkbox" class="btn-check" id="btn-check-20" autocomplete="off">
+                                        <label class="btn btn-primary selection"  for="btn-check-20">Plus Two</label>
+                                        <input type="checkbox" class="btn-check" id="btn-check-21" autocomplete="off">
+                                        <label class="btn btn-primary selection" for="btn-check-21">Bsc Degree</label>
+                                        <input type="checkbox" class="btn-check" id="btn-check-31" autocomplete="off">
+                                        <label class="btn btn-primary selection" for="btn-check-31">BCA</label>
+                                        <input type="checkbox" class="btn-check" id="btn-check-41" autocomplete="off">
+                                        <label class="btn btn-primary selection" for="btn-check-41">Diploma</label>
+                                        <input type="checkbox" class="btn-check" id="btn-check-51" autocomplete="off">
+                                        <label class="btn btn-primary selection" for="btn-check-51">Professional course</label>
+                                        <input type="checkbox" class="btn-check" id="btn-check-61" autocomplete="off">
+                                        <label class="btn btn-primary selection" for="btn-check-61">Nursing</label>
+                                    </div>      
+                                    <div class="mb">
+                                        <label for="exampleInputName1" class="form-label">Tell us about your Qualifications!</label>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="checkbox" class="btn-check" id="btn-check-62" autocomplete="off">
+                                        <label class="btn btn-primary selection" for="btn-check-62">Qualification 1</label>
+                                        <input type="checkbox" class="btn-check" id="btn-check-72" autocomplete="off">
+                                        <label class="btn btn-primary selection" for="btn-check-72">Qualification 2</label>
+                                        <input type="checkbox" class="btn-check" id="btn-check-82" autocomplete="off">
+                                        <label class="btn btn-primary selection" for="btn-check-82">Qualification 3</label>
+                                       
+
+                                    </div>   
+                                    <div class="d-grid gap-2 col-12 mx-auto" style="padding-top: 0px;">
+                                        <button class="btn btn-primary" id="next-btn-4" type="button">Next</button>
+                                        
+                                      </div>
+                                </form>
+                              </div>
+                        </div>
+                        <!--QUALIFICATION AND EDUCATION -->
+
+                        <div class="content-1 info-4" id="content-5">
+                            <div class="head-1">
+                                <h3>Personal Details</h3>
+                            </div>
+                            <div class="head-1">
+                                <h2>Can we get your pics?</h2>
+                            </div>
+                            <div class="modal-input">
+                                <form>
+                                    
+                                    <div class="mb-3">
+                                        <label for="formFile" class="form-label">Share us your profile pic. here!</label>
+                                        <input class="form-control" type="file" id="formFile">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="formFileMultiple" class="form-label">Share us your multiple pic. here!</label>
+                                        <input class="form-control" type="file" id="formFileMultiple" multiple>
+                                    </div> 
+                                    <div class="mb-3">
+                                        <label for="formFileMultiple" class="form-label">Share us your short reel. here!</label>
+                                        <input class="form-control" type="file" id="formFileMultiple" multiple>
+                                    </div>  
+                                    
+                                     
+                                    <div class="d-grid gap-2 col-12 mx-auto" style="padding-top: 0px;">
+                                        <button class="btn btn-primary" id="next-btn-2" type="button">Next</button>
+                                        
+                                      </div>
+                                </form>
+                               
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- <div class="modal-footer"></div>-->   
+                      
+                      
+                    
+                </div>
+            </div>
+        </div>
+
+        <!--Personal details modal-->
+ 
+    </div>
+
+
+   
+    <!--Bootstrap JS-->
+    
+    <script src="/jQuery/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="/static/bootstrap/js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/648d5aac71.js" crossorigin="anonymous"></script>
+    <script>
+           $(document).ready(function(){
+            $('#next-btn-1').click(function(){
+               $('#content-1').hide();
+               $('#content-2').show();
+            });
+
+           });
+           $(document).ready(function(){
+            $('#next-btn-2').click(function(){
+               $('#content-2').hide();
+               $('#content-3').show();
+            });
+
+           });
+           $(document).ready(function(){
+            $('#next-btn-3').click(function(){
+               $('#content-3').hide();
+               $('#content-4').show();
+            });
+
+           });
+           $(document).ready(function(){
+            $('#next-btn-4').click(function(){
+               $('#content-4').hide();
+               $('#content-5').show();
+            });
+
+           });
+           $(document).ready(function(){
+            $('#next-btn-5').click(function(){
+               $('#content-5').hide();
+               $('#content-6').show();
+            });
+
+           });
+
+    </script>
+    
+    
+    
+</body>
+</html>
