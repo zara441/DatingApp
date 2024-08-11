@@ -1,0 +1,181 @@
+.container{
+    min-height: 100vh;
+    padding-top: 10px ;
+    /* background: rgb(6, 190, 58); */
+}
+.row{
+    /* background-color: rgb(40, 40, 220); */
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.screen-body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.screen-body button{
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 5px;
+    background-color: #dac4df;
+    width: 250px;
+    display: flex;
+    padding-top: 7px;
+}
+.screen-body button:hover{
+   background: #520665;
+   color:#fff;
+}
+.screen-body i{
+    color:black;
+ }
+.logo{
+    border-radius: 50%;
+}
+.screen-head{
+    padding: 15px;
+
+}
+.screen-head h4{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 20px;
+    color:#520665;
+}
+.screen-footer p{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-left: 20px;
+}
+.round{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .login-btn{
+    height: 40px;
+    width:250px;
+    background-color: #fff;
+    border-radius: 25px;
+    display: flex;
+    padding: 5px;
+    /* background-color: pink; 
+    background-color: #dac4df;
+}
+
+.login-btn:hover{
+    background-color:#520665;
+   
+} */
+.screen-footer button{
+    border: none;
+    outline: none;
+}
+.modal-content{
+    height: 670px;
+    
+}
+.modal-header{
+    border-bottom: none;
+}
+.modal-header h1{
+    margin-left: 100px ;
+}
+.modal{
+    --bs-modal-width: 400px;
+}
+/* modal with heading at middle-top */
+.head{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-input{
+    height: 500px;
+    /* background-color: #b67cc5; */
+    padding: 10px;
+}
+.btn-primary {
+    --bs-btn-bg: #520665;
+    --bs-btn-border-color: none;
+    --bs-btn-hover-bg: black;
+}
+
+.form-label{
+    position: relative;
+    top:-31px;
+    left:8px;
+    
+}
+.visibility{
+    visibility: hidden;
+}
+.form-control:focus + .form-label{
+    top:-54px;
+    background-color: #fff;
+    color: #520665;
+    font-size: 0.9rem;
+    font-weight: 400;
+    visibility: visible;
+}
+.form-select:focus + .form-label{
+    top:-54px;
+    background-color: #fff;
+    color: #520665;
+    font-size: 0.9rem;
+    font-weight: 400;
+    visibility: visible;
+}
+/* .form-control .form-control-sm:focus-visible + .form-label{
+    top:-54px;
+    background-color: #fff;
+    color: #520665;
+    font-size: 0.9rem;
+    font-weight: 400;
+    visibility: visible;
+
+
+} */
+/* for login small-sized modal is using */
+.login{
+    height: 400px;
+}
+.small{
+    height: 200px;
+}
+.modal-footer{
+    border-top:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-footer button{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.pass-forget{
+    height: 80px;
+    width: 400px;
+    /* background-color: #520665; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.large{
+    height: 600px;
+}

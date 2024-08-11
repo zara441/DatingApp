@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login/reg</title>
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/registration/login_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap" 
+        rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row" style="background-color: white">
+            <div class="col-lg-3 col-md-5 col-sm-3" style="height: 700px;background-color: white;">
+                <div class="screen-img" style="height: 350px;background-color: white">
+                  
+                </div>
+                <div class="screen-content"  style="height: 330px;">
+                    <div class="screen-head" style="height: 80px;padding-left: 40px;">
+                        <h4 style="color:#520665">Let's meeting new people around you</h4>
+                    </div>
+                    <div class="screen-body" style="height: 150px;display: flex;justify-content: center;align-items: center;flex-wrap: wrap;">
+                     
+                        <button type="button"><div class="round"><i class="fa-solid fa-phone-volume logo"></i></div>&nbsp;&nbsp;&nbsp;Login with Email/Phone</button>
+                        <button type="button"><div class="round"><i class="fa-brands fa-google"></i></div>&nbsp;&nbsp;&nbsp;Login with Google</button>
+                        
+                    </div> 
+                    <div class="screen-footer" style="height: 80px;padding: 10px;padding-left: 25px;">
+                        <p>Don't have an account? <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop1"><span style="color:#520665">SignUp</span></button></p> 
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="head">
+                        <h4>SignUp</h4>
+                      </div>
+                      <div class="modal-input">
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp">
+                                <label for="exampleInputName1" class="form-label">Name</label>
+                            </div>
+                            <div class="mb-3">
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <label for="exampleInputEmail1" class="form-label">Email</label>
+                            </div>
+                            <div class="mb-3">
+                                <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <label for="exampleInputEmail1" class="form-label">Mobile</label>
+                              </div>
+                            <div class="mb-3">
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                            </div>
+                            <div class="mb-3">
+                                <input type="password" class="form-control" id="exampleInputPassword2">
+                                <label for="exampleInputPassword2" class="form-label">Confirm Password</label>
+                              </div>
+                            <div class="d-grid gap-2 col-12 mx-auto" style="padding-top: 0px;">
+                                <button class="btn btn-primary" type="button">Register</button>
+                                <button class="btn btn-primary" type="button">SocialMedia Login</button>
+                              </div>
+                          </form>
+                      </div>
+                    </div>
+                    <div class="screen-footer" style="height: 80px;padding: 10px;padding-left: 55px;">
+                        <p>Already have an account? <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop2"><span style="color:#520665">Login</span></button></p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content login">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="head">
+                        <h4>LogIn</h4>
+                      </div>
+                      <div class="modal-input small">
+                        <form>
+                            <div class="mb-3">
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <label for="exampleInputEmail1" class="form-label">Email/Mobile number</label>
+                            </div>
+                            
+                            <div class="mb-3">
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                            </div>
+                            <div class="d-grid gap-2 col-12 mx-auto" style="padding-top: 0px;">
+                                <button class="btn btn-primary" type="button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop3">Login</button>
+                            </div>
+                          </form>
+                      </div>
+                    </div>
+                    <div class="pass-forget">
+                        <h6><a href="">Forgot password?</a></h6>
+                    </div>
+                    <div class="modal-footer">
+                        <p>Don't have an account? <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop1"><span style="color:#520665">Signup</span></button></p> 
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!--PERSONAL DETAILS-->
+        <!--PERSONAL DETAILS-->
+    </div>
+
+
+
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="/static/bootstrap/js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/648d5aac71.js" crossorigin="anonymous"></script>
+    
+    
+    
+</body>
+</html>
