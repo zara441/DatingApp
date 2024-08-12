@@ -115,22 +115,32 @@
 }
 
 .form-label{
-    position: relative;
+    position: relative; /*relative*/
     top:-31px;
     left:8px;
+    /* background: transparent; */
     
 }
 .visibility{
     visibility: hidden;
 }
-.form-control:focus + .form-label{
+
+.form-control:focus ~ .form-label
+{
     top:-54px;
+   
     background-color: #fff;
     color: #520665;
     font-size: 0.9rem;
     font-weight: 400;
-    visibility: visible;
+    
 }
+
+/* input valid state conflict solution  transform: translateX(-1px) translateY(-20px);*/
+/* input valid state conflict solution  transform: translateX(-1px) translateY(-20px);*/
+
+
+
 .form-select:focus + .form-label{
     top:-54px;
     background-color: #fff;
@@ -139,16 +149,7 @@
     font-weight: 400;
     visibility: visible;
 }
-/* .form-control .form-control-sm:focus-visible + .form-label{
-    top:-54px;
-    background-color: #fff;
-    color: #520665;
-    font-size: 0.9rem;
-    font-weight: 400;
-    visibility: visible;
 
-
-} */
 /* for login small-sized modal is using */
 .login{
     height: 400px;
@@ -179,3 +180,86 @@
 .large{
     height: 600px;
 }
+/* background csss*/
+.circle-1{
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 50%;
+    border-style: dashed;
+    border-color: #c673db;
+}
+.circle-2{
+    width: 200px;
+    height: 200px;
+    background-color: #fed0f7;
+    border-radius: 50%;
+    transform: translateX(52px) translateY(-310px);
+    /* border-style: dashed; */
+    /* border-color: #c673db; */
+}
+.circle-3{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    transform: translateX(48px) translateY(5px);
+    
+}
+.heart{
+   transform: translateY(-20px);
+}
+.spot{
+    width: 60px;
+    height: 60px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #c673db;
+    
+}
+.spot-1{
+    transform: translateX(120px) translateY(-20px);
+}
+.spot-2{
+    transform: translateX(-10px) translateY(-20px);
+}
+.spot-3{
+    transform: translateX(-15px) translateY(30px);
+    background-color: #fff;
+}
+.spot-4{
+    transform: translateX(260px) translateY(-80px);
+}
+.spot-5{
+    transform: translateX(220px) translateY(-20px);
+}
+.spot-6{
+    transform: translateX(40px) translateY(-60px);
+}
+.spot-7{
+    transform: translateX(20px) translateY(-20px);
+}
+.spot-8{
+    transform: translateX(120px) translateY(-20px);
+}
+
+.spot i{
+    font-size: 60px;
+    color: pink;
+    background-color: white;
+
+}
+.circle-2 i{
+    font-size: 40px;
+    color: #c673db;
+    transform: translateX(30px) translateY(-5px);
+}
+

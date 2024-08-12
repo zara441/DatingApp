@@ -1,3 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
 .modal-content{
     height: 480px;
     
@@ -120,7 +131,8 @@
 #slide1:checked ~ #controls label:nth-child(2),
 #slide2:checked ~ #controls label:nth-child(3),
 #slide3:checked ~ #controls label:nth-child(4){
-    background: url(img/ri-arrow1.png) no-repeat;
+    
+    background: url(/static/jobSection/img/ri-arrow1.png) no-repeat;
     float:right;
     margin: -89px -38px 0 0;
     display: block;
